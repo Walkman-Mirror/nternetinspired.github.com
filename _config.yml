@@ -2,12 +2,12 @@
 # Possible options are here: https://github.com/mojombo/jekyll/wiki/Configuration
 
 ## IMPORTANT ##
-# If, like me, you prefer tabs over spaces for indentation, polease be aware that using tabs in YAML
+# If you prefer tabs over spaces for indentation, please be aware that using tabs in YAML
 # files used by Jekyll breaks stuff. Don't do that. Single space only in YAML front matter.
 
 auto: true
 
-# Seth the default URL structure for posts. See for details:
+# Set the default URL structure for posts. See for details:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:title
 
@@ -24,5 +24,6 @@ author :
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
+# It must not have a trailing slash (/).
 #
 #production_url : http://your-username.github.com
